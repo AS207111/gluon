@@ -7,6 +7,7 @@ on:
   push:
     branches:
       - master
+      - build*
       - next
       - v20*
   pull_request:
